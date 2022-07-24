@@ -10,6 +10,14 @@
     grid-template-rows: 600px;
     place-content: center;
 }
+.grid-container div:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.grid-container div:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 .grid-item-one, .grid-item-two, .grid-item-three {
     padding: 25px;
     place-content: left;
