@@ -5,24 +5,19 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns:  250px 250px 250px;
-    grid-template-rows: 300px 300px 300px;
-    column-gap: 0;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
+    height: 100vh;
+    grid-template-columns:  300px 300px 300px;
+    grid-template-rows: 600px;
+    place-content: center;
 }
 .grid-item-one, .grid-item-two, .grid-item-three {
     padding: 25px;
-    align-items: left;
-    justify-items: left;
+    place-content: left;
 }
 .grid-item-one {
     display: grid;
     background-color: orange;
     color: white;
-    
-    
 }
 .grid-item-two {
     display: grid;
@@ -43,11 +38,13 @@ h1 {
 }
 p {
     line-height: 20px;
+    margin-bottom: 17px;
 }
 button {
-    margin-top: 60px;
+    height: 50px;
+    width: 150px;
     background-color: white;
-    padding: 10px 15px;
+    padding: 5px;
     border-radius: 15px;
     border: none;
     font-weight: 700;
